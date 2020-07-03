@@ -1,0 +1,38 @@
+{
+	"name": "use-pure-query-state",
+	"version": "0.0.1",
+	"description": "The fastest way to use Query String as state using simple hook without external library",
+	"main": "dist/index.js",
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/JaLe29/use-pure-query-state.git"
+	},
+	"keywords": [
+		"react",
+		"url",
+		"query",
+		"query",
+		"hook",
+		"state"
+	],
+	"author": "JaLe",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/JaLe29/use-pure-query-state/issues"
+	},
+	"homepage": "https://github.com/JaLe29/use-pure-query-state#readme",
+	"devDependencies": {
+		"@types/react": "^16.9.41",
+		"react": "^16.13.1",
+		"rollup": "^2.18.2",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-peer-deps-external": "^2.2.3",
+		"rollup-plugin-terser": "^6.1.0",
+		"rollup-plugin-typescript2": "^0.27.1",
+		"typescript": "^3.9.6"
+	}
+}
