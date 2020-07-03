@@ -1,6 +1,6 @@
 {
 	"name": "use-pure-query-state",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "The fastest way to use Query String as state using simple hook without external library",
 	"main": "dist/index.js",
 	"scripts": {
