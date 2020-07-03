@@ -4,6 +4,8 @@ The fastest way to use Query String as state using simple hook without external 
 # Live demo
 [https://demo-use-pure-query-state.vercel.app/](https://demo-use-pure-query-state.vercel.app/)
 
+[https://github.com/JaLe29/demo-use-pure-query-state](https://github.com/JaLe29/demo-use-pure-query-state)
+
 ## Prerequisite
 - react ^16.8.0
 
@@ -20,6 +22,8 @@ yarn add use-pure-query-state
 You can use `usePureQueryState` like react `useState`
 
 ```js
+import usePureQueryCustomState from 'use-pure-query-state'
+
 function App () {
 	const [inputString, setInpputString] = usePureQueryCustomState('inputString', '')
 
@@ -31,6 +35,8 @@ function App () {
 ```
 or with number
 ```js
+import usePureQueryCustomState from 'use-pure-query-state'
+
 function App () {
 	const [inputNumber, setInputNumber] = usePureQueryCustomState('inputNumber', 100)
 
@@ -41,6 +47,8 @@ function App () {
 ```
 or with object
 ```js
+import usePureQueryCustomState from 'use-pure-query-state'
+
 function App () {
 	const [inputObject, setInputObject] = usePureQueryCustomState('inputObject', {vehicle: false, bike: false}, {isValueObj: true})
 
