@@ -1,4 +1,4 @@
-# use-pure-query-state
+# use-pure-query-state [![NPM version](https://badge.fury.io/js/use-pure-query-state.svg)](http://badge.fury.io/js/use-pure-query-state)
 The fastest way to use Query String as state using simple hook without external library
 
 # Live demo
